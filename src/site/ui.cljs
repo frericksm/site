@@ -15,7 +15,8 @@
       (dom/div nil
         (dom/span nil (str "Count: " count))
         (dom/button
-          #js {:onClick
+          #js {:className "btn btn-info"
+               :onClick
                (fn [e] (om/transact! this '[(increment)]))}
           "Click me!")))))
 
