@@ -9,9 +9,9 @@
      :figwheel true
      :source-paths ["src"]
      :compiler {:main 'site.core
-                :asset-path "js/out"
-                :output-to "resources/public/js/main.js"
-                :output-dir "resources/public/js/out"
+                :asset-path "assets/js/out"
+                :output-to "resources/public/assets/js/main.js"
+                :output-dir "resources/public/assets/js/out"
                 :verbose true}}]})
 
 (ra/cljs-repl)
